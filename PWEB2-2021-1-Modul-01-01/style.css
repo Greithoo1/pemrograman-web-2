@@ -1,0 +1,28 @@
+h1, p {
+    color: green;
+}
+
+input, tombol {
+    border: 1px solid blue;
+    padding: 7px;
+}
+.tombol {
+    background-color: lightblue;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    top: 10px;
+}
+th {
+    background-color: red;
+    color: white;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+tr:nth-child(odd) {background-color: yellow;}
